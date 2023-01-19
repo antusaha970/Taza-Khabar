@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    width: inherit;
+    height: 150px;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.img-area img {
+    width: 100%;
+    height: 150px;
+}
+
+.title-area {
+    margin-left: 10px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+h4 a {
+    text-decoration: none;
+}

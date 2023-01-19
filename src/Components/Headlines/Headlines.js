@@ -12,7 +12,7 @@ export default function Headlines(props) {
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
                 sx={{ height: 140 }}
-                image={urlToImage}
+                image={urlToImage || 'https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png'}
                 title="green iguana"
             />
             <CardContent>
